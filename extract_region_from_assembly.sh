@@ -11,6 +11,9 @@ assembly=$1
 # region path
 region=$2
 
+# region path
+output_name=$3
+
 # Step 1: Index the assembly
 samtools faidx $assembly
 
